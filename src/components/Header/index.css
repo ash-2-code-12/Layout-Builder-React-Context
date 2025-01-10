@@ -1,0 +1,19 @@
+.header {
+  background-color: #c4cbd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 2px 0;
+  height: 80px;
+  font-family: 'Roboto';
+}
+.header-content {
+  color: #475569;
+  margin: 0;
+}
+
+@media (min-width: 768px){
+  .header{
+    height: 120px;
+  }
+}

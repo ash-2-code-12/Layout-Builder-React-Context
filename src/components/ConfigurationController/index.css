@@ -1,0 +1,40 @@
+.configuration-controller {
+  background-color: #475569;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 16px 20px;
+}
+.controller-heading {
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 0;
+}
+.layout-control-list {
+  margin: 0;
+  padding: 0;
+}
+.control-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 24px;
+  margin-bottom: 4px;
+}
+.control-box input {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+}
+.control-box label {
+  margin: 0 0 1.5px 0;
+}
+
+@media (min-width: 768px) {
+  .configuration-controller {
+    padding: 20px 48px;
+  }
+  .controller-heading {
+    font-size: 36px;
+  }
+}
